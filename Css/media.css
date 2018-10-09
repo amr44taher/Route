@@ -1,0 +1,132 @@
+/*Smart Phones and Tablets*/
+@media (max-width:767px)
+{
+    /*Start Navbar*/
+.dropdown-menu .divider {
+    background-color: #761e1c;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #aba4a4;
+    padding: 10px;
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+    max-width: none;    
+}
+    
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+     max-height: none;
+}
+    
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #e41b17;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 25px;
+    line-height: 25px;
+    position: relative;
+}
+
+.dropdown-menu  {
+    background-color: #000;
+    border-top: 2px solid #e41b17;
+    min-width: 180px;
+}
+
+.dropdown-menu > li > a {
+    color: #989494;
+    padding: 6px 20px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+/*End Navbar*/
+/*Start Section Background*/
+.caption {
+    font-size: 35px;
+    color: #fff;
+    margin-top: 200px;
+    line-height: 40px;
+}
+/*End Section Background*/
+/*Start Section About*/
+h1 {
+    font-weight: 500;
+    font-size:30px;
+}
+/*End Section About*/
+    
+.our-clients img {
+    width: 120px;
+}
+    
+    .option-box .gear {
+        font-size: 2em;
+    }
+    
+    .form-inline .form-control {
+    margin-bottom: 5px;
+    margin: 5px auto;
+}
+    .testimonials .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    opacity: 0.4;
+    text-indent: 0px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    
+}
+
+.testimonials .carousel-indicators li.active  {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background: none;
+}
+}
+
+/*Small Screen*/
+
+@mdia (min-width: 768px) and (min-width= 991px)
+{
+
+}
+
+/*Medium Screen*/
+
+@mdia (min-width: 992px) and (min-width= 1199px)
+{
+
+}
+
+/*Large Screen*/
+
+@mdia (min-width= 1200px)
+{
+
+}
+
+/*Special Screen*/
+
+@media (max-width: 461px) and (min-width: 372px)
+{
+
+}
+
+
